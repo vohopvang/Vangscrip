@@ -3,7 +3,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
        local Window = MakeWindow({
          Hub = {
          Title = "Vàng Script",
-         Animation = "Chơi game vui vẻ"
+         Animation = "Tik Tok: Vàng Script"
          },
         Key = {
         KeySystem = false,
@@ -44,28 +44,38 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))()
   })
-      AddButton(Tab2o, {
+  end
+  
+      AddButton(Tab1o, {
      Name = "W Azure",
     Callback = function()
 	 getgenv().Team = "Pirates"
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
   })
-      AddButton(Tab3o, {
+  end
+  
+      AddButton(Tab1o, {
      Name = "Xero Hub",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/verudous/Xero-Hub/main/main.lua"))()
   })
-      AddButton(Tab4o, {
+  end
+  
+      AddButton(Tab1o, {
      Name = "Speed Hub",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
   })
-      AddButton(Tab5o, {
+  end
+  
+      AddButton(Tab1o, {
      Name = "Trẩu Roblox",
     Callback = function()
 	 loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/TrauHub/refs/heads/main/TrauXt"))()
   })
-      AddButton(Tab6o, {
+  end
+  
+      AddButton(Tab1o, {
      Name = "Min Gaming",
     Callback = function()
 	 loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/refs/heads/main/MinCE"))() 
